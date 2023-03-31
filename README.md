@@ -43,7 +43,7 @@ In most cases, you will want to install ros-noetic-desktop-full for full ROS exp
 ```
 sudo apt install ros-noetic-desktop-full
 ```
-![alt text]([https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img1.png](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img2.png](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img2.png))
+![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img2.png)
 
  1.2 ROS2 and Xubuntu on Jetson Nano Installation (Ubuntu&ROS2-in-JetsonNano)
 
