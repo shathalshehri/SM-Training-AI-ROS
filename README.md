@@ -36,14 +36,28 @@ sudo apt update
 
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img1.png)
 
-**4.	 Install ROS Noetic package ** 
+**4.	Install ROS Noetic package** 
 
 In most cases, you will want to install ros-noetic-desktop-full for full ROS experience  (Recommended)
 
 ```
 sudo apt install ros-noetic-desktop-full
 ```
+
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img2.png)
 
- 1.2 ROS2 and Xubuntu on Jetson Nano Installation (Ubuntu&ROS2-in-JetsonNano)
+**5.	Verify noetic installation**
+
+You must source this script in every bash terminal you use ROS in. 
+```
+source /opt/ros/noetic/setup.bash
+```
+
+then, write roscore to make sure that the installation process was successful
+
+```
+roscore 
+```
+
+ ## 1.2 ROS2 and Xubuntu on Jetson Nano Installation (Ubuntu&ROS2-in-JetsonNano)
 
