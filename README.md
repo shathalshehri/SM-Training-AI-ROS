@@ -125,9 +125,8 @@ Then you will have to put in your password for the authentication
 
 **11.	If your Jetson Nano is A02 then you have to plug in the SD card, and after its booting, it will take you to the XUbuntu installation screen.**
 
-**12.	To find out which .dtb file is compatible with your Jetson Nano run the following command on its terminal :**
+**12.	To find out which .dtb file is compatible with your Jetson Nano run the following command on its terminal :** cat /sys/firmware/devicetree/base/compatible
 
-cat /sys/firmware/devicetree/base/compatible
 
 
 If your Jetson Nano was B01 version,  from your SD card go to boot > extlinux > extlinux.conf then open it in terminal and enter the following command: sudo vim extlinux.conf 
