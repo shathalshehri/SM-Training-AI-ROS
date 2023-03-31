@@ -107,8 +107,12 @@ tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
 
 
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img12.png)
+
+
 **6.	Plug in the USB drive.**
+
 **7.	Identify the USB drive or click Change to select a different USB.**
+
 **8.	Select Target and select your device then click on Flash**
 
 
