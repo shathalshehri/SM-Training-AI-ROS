@@ -1,7 +1,8 @@
 # SM Training: AI and Robotics First Task
 
- 1.1 ROS Noetic on Ubuntu Installation (ROS-Noetic-on-Ubuntu-20)
- ## How to Install ROS Noetic on Ubuntu 20.04 LTS
+ ## 1.1 ROS Noetic on Ubuntu Installation (ROS-Noetic-on-Ubuntu-20)
+  
+  **How to Install ROS Noetic on Ubuntu 20.04 LTS**
 
 In this repository, I will show you how to Install ROS on Ubuntu operating system.  I’ve already installed Ubuntu 20.04.3 on Virtual Machine. So if you have not installed VirtualBox on your operating system yet, just install it (I’ll put the references that you will need down below) and then you will have to download Linux operating system like Ubuntu from their website, which you will be able to have its iso file that will be on top of the VirtualBox. 
 
@@ -18,21 +19,31 @@ To Install ROS Noetic on Ubuntu
 
 Follow the steps below and write the commands on terminal
 
-## 1.	Set up ROS Noetic repo for Ubuntu 20.04
+**1.	Set up ROS Noetic repo for Ubuntu 20.04**
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ``` 
 
-## 2.	Add official ROS keyring
+**2.	Add official ROS keyring**
 ```
 sudo apt install curl # if you haven't already installed curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
-## 3.	Update ros package index
+**3.	Update ros package index**
 ```
 sudo apt update
 ```
 
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img1.png)
+
+**4.	 Install ROS Noetic package ** 
+
+In most cases, you will want to install ros-noetic-desktop-full for full ROS experience  (Recommended)
+
+```
+sudo apt install ros-noetic-desktop-full
+```
+![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img1.png](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img2.png)
+
  1.2 ROS2 and Xubuntu on Jetson Nano Installation (Ubuntu&ROS2-in-JetsonNano)
 
