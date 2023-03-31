@@ -106,7 +106,7 @@ tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
 
 
 
-![alt text]https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img12.png)
+![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img12.png)
 **6.	Plug in the USB drive.**
 **7.	Identify the USB drive or click Change to select a different USB.**
 **8.	Select Target and select your device then click on Flash**
@@ -115,9 +115,13 @@ tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
 Then you will have to put in your password for the authentication 
 
 **9.	The Flashing will start. This will take some time, you will have to wait until the flash is completed**
+
 **10.	When the process completes, close BalenaEtcher.**
+
 **11.	If your Jetson Nano is A02 then you have to plug in the SD card, and after its booting, it will take you to the XUbuntu installation screen.**
+
 **12.	To find out which .dtb file is compatible with your Jetson Nano run the following command on its terminal :**
+
 cat /sys/firmware/devicetree/base/compatible
 
 
