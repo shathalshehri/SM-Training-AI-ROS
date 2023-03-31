@@ -64,7 +64,7 @@ roscore
 
 **How to install Ubuntu and ROS2 in Jetson Nano**
 
-•	Install xubuntu in Jetson Nano
+## •	Install xubuntu in Jetson Nano
 
 In this section I will show how to install Ubuntu & ROS2 on a Jetson Nano
 We will download (Xubuntu 20.04 Focal Fossa L4T R32.3.1) instead of Ubuntu because it is a custom image for the Jetson Nano
@@ -76,11 +76,11 @@ We will download (Xubuntu 20.04 Focal Fossa L4T R32.3.1) instead of Ubuntu becau
 
  ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img4.png)
  
- **3.	After the following window pops up, click on Save file>OK **
+ **3.	After the following window pops up, click on Save file>OK**
  
  ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img5.png)
  
- •	Download balena
+ ## •	Download balena
 
 **1.	You need to flash your SD card using balenaEtcher (Recommended) , here is the link that will do that for you: https://www.balena.io/etcher/ , click Download for Linux x64 > Save File> OK**
 
@@ -135,7 +135,7 @@ Finally we plug in the SD card, and after booting, it will take you to the XUbun
 
 
 
-•	ROS2 in Jetson Nano
+## •	ROS2 in Jetson Nano
 
 **13.	Installing ROS2 on Jetson Nano is pretty straightforward, all you have to do is to follow the instructions provided in this link**
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html 
