@@ -80,16 +80,18 @@ We will download (Xubuntu 20.04 Focal Fossa L4T R32.3.1) instead of Ubuntu becau
  
  ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img5.png)
  
-## •	Download balena
+ •	Download balena
 
 **1.	You need to flash your SD card using balenaEtcher (Recommended) , here is the link that will do that for you: https://www.balena.io/etcher/ , click Download for Linux x64 > Save File> OK**
 
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img6.png)
 
 **2.	Click on Extract Here so you can have the app image**
+
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img7.png) ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img8.png)
 
 **3.	Now  the program is set up**
+
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img9.png)
 
 **4.	Before you can flash the image you have to Extract the zip file for ubuntu that you’ve download it using the Terminal type this command to extract the Xubuntu image:**
@@ -99,9 +101,36 @@ tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img10.png)
 
 **5.	Go back to the balena Etcher > Flash from file> Downloads>Xubuntu-20.04…. (Select the image for xubuntu)**
+
 ![alt text](https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img11.png)
 
 
+
+![alt text]https://github.com/shathalshehri/SM-Training-AI-ROS/blob/main/img12.png)
+**6.	Plug in the USB drive.**
+**7.	Identify the USB drive or click Change to select a different USB.**
+**8.	Select Target and select your device then click on Flash**
+
+
+Then you will have to put in your password for the authentication 
+
+**9.	The Flashing will start. This will take some time, you will have to wait until the flash is completed**
+**10.	When the process completes, close BalenaEtcher.**
+**11.	If your Jetson Nano is A02 then you have to plug in the SD card, and after its booting, it will take you to the XUbuntu installation screen.**
+**12.	To find out which .dtb file is compatible with your Jetson Nano run the following command on its terminal :**
+cat /sys/firmware/devicetree/base/compatible
+
+
+If your Jetson Nano was B01 version,  from your SD card go to boot > extlinux > extlinux.conf then open it in terminal and enter the following command: sudo vim extlinux.conf 
+then add this line in the extlinux.conf and save the file: FDT /boot/tegra210-p3448-0000-p3449-0000-b00.dtb 
+Finally we plug in the SD card, and after booting, it will take you to the XUbuntu installation screen.
+
+
+
+•	ROS2 in Jetson Nano
+
+**13.	Installing ROS2 on Jetson Nano is pretty straightforward, all you have to do is to follow the instructions provided in this link**
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html 
 
 
 
